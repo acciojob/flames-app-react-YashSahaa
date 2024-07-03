@@ -51,7 +51,7 @@ const Flames = ()=>{
         <button onClick={calculateRelationship} data-testid="calculate_relationship">calculate Relationship Future</button>
         <button onClick={clearForm} data-testid="clear">clear</button>
         <h3 data-testid="answer">{result}</h3>
-        {/* <h3>Marriage</h3> */}
+        <h3>Marriage</h3>
         </div>
   );
 
